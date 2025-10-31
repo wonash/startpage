@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>New Tab</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <style>
+  </style>
+</head>
+
+<body>
+  <h1>Welcome</h1>
+  <link href="style.css" rel="stylesheet" />
+
+<form method="GET" action="https://www.google.com/search">
+    <input name="q" type="text">
+    <!-- <input type="submit"> -->
+</form>
+
+  <div class="horizontal-sections">
+    <div class="horizontal-list">
+      <h2>General</h2>
+      <div>
+        <ul>
+          <li><a target="_blank" href="https://wonash.github.io/">Wonash Page</a></li>
+          <li><a target="_blank" href="https://outlook.office.com/mail/">Outlook</a></li>
+          <li><a target="_blank" href="https://m365.cloud.microsoft/chat/?auth=2&origindomain=microsoft365">Microsoft 365</a></li>
+          <p class="divider">Google Utilities</p>
+          <li><a target="_blank" href="https://mail.google.com/mail/u/0/#inbox">Gmail</a></li>
+          <li><a target="_blank" href="https://calendar.google.com/calendar/u/0/r/week">Google Calendar</a></li>
+          <li><a target="_blank" href="https://drive.google.com/drive/home?dmr=1&ec=wgc-drive-hero-goto">Google Drive</a></li>
+          <li><a target="_blank" href="https://docs.google.com/document/u/0/">Google Docs</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="horizontal-list">
+      <h2>IU</h2>
+      <div>
+        <ul>
+          <li><a target="_blank" href="https://github.com">Schedule</a></li>
+          <li><a target="_blank" href="https://iu.instructure.com/">Canvas</a></li>
+          <li><a target="_blank" href="https://github.iu.edu/">Github IU</a></li>
+          <p class="divider">Course Specific Pages</p>
+          <li><a target="_blank" href="https://www.gfowler.net/c103/index.html">C103 Homepage</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="horizontal-list">
+      <h2>Frequent</h2>
+      <div>
+        <ul>
+          <li><a target="_blank" href="https://www.youtube.com/">YouTube</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="horizontal-list">
+      <h2>Social</h2>
+      <div>
+        <ul>
+          <li><a target="_blank" href="https://www.instagram.com/">Instagram</a></li>
+          <li><a target="_blank" href="https://web.groupme.com/chats/">GroupMe</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="horizontal-list">
+      <h2>Utility I</h2>
+      <div>
+        <ul>
+          <li><a target="_blank" href="https://github.com/">Github</a></li>
+          <p class="divider">Dev</p>
+          <li><a target="_blank" href="https://stackoverflow.com/questions">Stackoverflow</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="horizontal-list">
+      <h2>Utility II</h2>
+      <div>
+        <ul>
+          <li><a target="_blank" href="#">placeholder</a></li>
+          <p class="divider">LLMs</p>
+          <li><a target="_blank" href="https://chatgpt.com/">ChatGPT</a></li>
+          <li><a target="_blank" href="https://claude.ai/new">Claude AI</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="MyClockDisplay" class="clock"></div>
+  <script>function showTime() {
+      var date = new Date();
+      var h = date.getHours(); // 0 - 23
+      var m = date.getMinutes(); // 0 - 59
+      var s = date.getSeconds(); // 0 - 59
+      var session = "AM";
+
+      if (h == 0) {
+        h = 12;
+      }
+
+      if (h > 12) {
+        h = h - 12;
+        session = "PM";
+      }
+
+      h = (h < 10) ? "0" + h : h;
+      m = (m < 10) ? "0" + m : m;
+      s = (s < 10) ? "0" + s : s;
+
+      var time = h + ":" + m + ":" + s + " " + session;
+      document.getElementById("MyClockDisplay").innerText = time;
+      document.getElementById("MyClockDisplay").textContent = time;
+
+      setTimeout(showTime, 1000);
+    }
+    showTime();</script>
+</body>
+
+</html>
