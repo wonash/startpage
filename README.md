@@ -1,6 +1,6 @@
 ### About 
 
-Repository for my personal startpage. 
+Repository for my personal startpage as a template. 
 
 Edit any part (links, navigation, dividers, colors etc) for your personal needs.
 
