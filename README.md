@@ -1,7 +1,6 @@
 ### About 
 
 Repository for my personal startpage. 
-Work in progress. 
 
 Edit any part (links, navigation, dividers, colors etc) for your personal needs.
 
