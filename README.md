@@ -5,7 +5,7 @@ Work in progress.
 
 Edit any part (links, navigation, dividers, colors etc) for your personal needs.
 
-### Demo 
+### Preview 
 ![startpage demo](demo.png) 
 
 ### Sources 
