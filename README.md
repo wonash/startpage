@@ -1,5 +1,14 @@
+### About 
+
 Repository for my personal startpage. 
 Work in progress. 
+
+Edit any part (links, navigation, dividers, colors etc) for your personal needs.
+
+### Demo 
+![startpage demo](demo.png) 
+
+### Sources 
 
 - Font: [VCR OSD Mono](https://www.dafont.com/vcr-osd-mono.font)
 - Wallpaper: [blue sky](https://www.wallpaperflare.com/blue-sky-phenomenon-digital-wallpaper-dark-sky-with-white-light-flares-wallpaper-hu)
